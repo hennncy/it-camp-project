@@ -1,3 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: white;
+  background-image: url("https://images.unsplash.com/photo-1578070181910-f1e514afdd08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80=");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-color: orange;
+  border: 0.1px solid orange;
+  border-radius: 15px;
+  margin: 20px;
+  margin-top: 100px;
+  margin-left: 110px;
+  padding: 10px;
+  height: 170px;
+  display: inline-block;
+}
+
+.div-img {
+  display: inline-block;
+  position: absolute;
+}
+
+.profile-img {
+  width: 100px;
+  height: 110px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.text-container {
+  width: 800px;
+  height: 200px;
+  display: inline-block;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+
+.p1 {
+  color: white;
 }
