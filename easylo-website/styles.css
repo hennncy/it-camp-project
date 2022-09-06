@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  height: 100vh;
+  background-color: #10c98f;
+  display: flex;
+}
+.main {
+  height: 100vh;
+  background-color: white;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0d7252;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  height: 50px;
+}
+.navigation_container {
+  display: flex;
+  align-items: center;
+}
+.navigation_container a {
+  margin: 10px 10px;
+  text-decoration: none;
+  color: white;
+}
+.nav-button {
+  display: block;
+  background-color: #10c98f;
+  padding: 10px 40px;
+}
+.header_primary_title {
+  color: white;
+  font-size: 50px;
+}
+.horizontal-line {
+  width: 200px;
+  height: 1px;
+  background-color: white;
+  margin: 10px 0;
+}
+.description {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.services-button {
+  display: block;
+  background-color: #8be2c7;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 30px;
+}
+.header_container {
+  display: flex;
+  align-items: center;
+}
+.header_title {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header_form {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form_card {
+  background-color: white;
+  width: 80%;
+  height: 70%;
+  margin-top: 80px;
+}
+.horizontal-line--green {
+  width: 200px;
+  height: 1px;
+  background-color: green;
+  margin: 10px 0;
+}
+
+form label,
+input {
+  display: block;
+}
+input {
+  text-align: center;
+}
+
+.text-second-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 100px;
+}
+.title-second-page {
+  color: rgb(13, 56, 13);
+  font-size: 25px;
+  margin: 15px;
+}
+.line-green {
+  width: 150px;
+  height: 1px;
+  background-color: green;
+  margin: 15px 0;
+}
+.description-second-page {
+  color: rgb(13, 56, 13);
+  font-size: 15px;
+  margin: 15px;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  width: 20%;
+  padding: 40px;
+  height: 350px;
+}
+.home-image {
+  width: 45px;
+}
+.description-home {
+  color: #10c98f;
+  margin: 16px 0;
+}
+.about {
+  color: black;
+  margin: 16px 0;
+}
+.some-text {
+}
+.second-card {
+  width: 20%;
+  padding: 40px;
+  height: 350px;
+}
+.car-image {
+  width: 45px;
+}
+.description-car {
+  color: #10c98f;
+  margin: 16px 0;
+}
+.about1 {
+  color: black;
+  margin: 16px 0;
+}
+.third-card {
+  width: 20%;
+  padding: 40px;
+  height: 350px;
+}
+.garage-image {
+  width: 45px;
+}
+.description-business {
+  color: #10c98f;
+  margin: 16px 0;
+}
+.about2 {
+  color: black;
+  margin: 16px 0;
+}

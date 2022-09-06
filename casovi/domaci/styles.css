@@ -16,7 +16,14 @@
 .navigation-container {
   flex: 1;
   display: flex;
+  align-items: center;
   justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #4877fb;
+  padding: 20px 0;
 }
 .title-container {
   flex: 5;
@@ -68,4 +75,42 @@
   color: #ccc;
   font-size: 20px;
   margin-top: 10px;
+}
+.card {
+  background-color: #fff;
+  width: 20%;
+  padding: 40px;
+  height: 350px;
+}
+.card-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+  margin-top: 16px;
+}
+.slika {
+  width: 50px;
+}
+.link-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card-title {
+  margin: 16px 0;
+}
+.arrow {
+  width: 20px;
+}
+.cards-container {
+  display: flex;
+  padding: 100px;
+}
+.p-1 {
+  padding: 8px;
 }
